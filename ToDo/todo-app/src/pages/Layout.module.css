@@ -1,0 +1,19 @@
+.list
+{
+  background: linear-gradient(135deg, #223999, #B48953);
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  box-shadow: 0 0 1rem black;
+  list-style-type: none;
+}
+.item
+{
+  font-size: large;
+  color: aliceblue;
+  transition: all 0.2s;
+}
+.item:hover{
+  color:lightblue;
+ 
+}
